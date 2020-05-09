@@ -1,0 +1,18 @@
+{% extends 'posts/post_base.html' %}
+
+
+{% block post_content %}
+<div class='column'>
+<div class='jumbotron'>
+<h3>Posts created by @{{user.username}}</h3>
+<br>
+<div >
+    {% for post in post_list %}
+    {% include 'posts/_post.html' %}
+    {% endfor %}
+</div>
+</div>
+</div>
+{% endblock post_content %}
+
+

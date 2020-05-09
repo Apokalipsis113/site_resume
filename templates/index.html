@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class='jumbotron'>
+    <h1>Welcome to Star Social</h1>
+    <h3>Simple site created for demonstaration.</h3>
+    <p>Step One <a href="{% url 'groups:create' %}">Create Group</a></p>
+    <p>Step tow <a class="nav-link" href="{% url 'posts:create' %}">Create new post</a></p>
+    <p>Step tree <a class="nav-link" href="{% url 'groups:all' %}">Check groups for post</a></p>
+    <p>Step four <a class="nav-link" href="#">............</a></p>
+    <p>PROFIT!!!</p>
+</div>
+{% endblock %}

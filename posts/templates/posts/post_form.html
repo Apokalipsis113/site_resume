@@ -1,0 +1,10 @@
+{% extends 'posts/post_base.html' %}
+{% load bootstrap4 %}
+{% block post_content %}
+<form action="{% url 'posts:create' %}" method="POST" id='postForm'>
+    {% csrf_token %}
+    {% bootstrap_form form %}
+   <!-- {% buttons submit='OK' reset="Cancel" %}{% endbuttons %} -->
+    <input type="submit" value="Post" class="btn btn-primary">
+</form>
+{% endblock  %}
