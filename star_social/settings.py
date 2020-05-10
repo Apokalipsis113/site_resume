@@ -25,8 +25,7 @@ SECRET_KEY = '^btb-&uxcs@%0ergzy)wcd7x!exotski@&e1t127a#-1ky*e6)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1",
-                 "floating-temple-64204.herokuapp.com/"]
+ALLOWED_HOSTS = ["floating-temple-64204.herokuapp.com",]
 
 
 # Application definition
