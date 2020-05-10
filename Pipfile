@@ -12,6 +12,7 @@ misaka = "*"
 django-braces = "*"
 django-bootstrap4 = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
