@@ -6,8 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-python = "==3.8.2"
-3-8-2 = "*"
+django = "==3.0.3"
+django-bootstrap = "*"
+misaka = "*"
+django-braces = "*"
+django-bootstrap4 = "*"
+whitenoise = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.6"
