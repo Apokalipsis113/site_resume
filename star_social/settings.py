@@ -26,7 +26,7 @@ SECRET_KEY = '^btb-&uxcs@%0ergzy)wcd7x!exotski@&e1t127a#-1ky*e6)'
 DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1",
-                 "http://floating-temple-64204.herokuapp.com/"]
+                 "floating-temple-64204.herokuapp.com/"]
 
 
 # Application definition
