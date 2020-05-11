@@ -45,11 +45,11 @@
       <li><a class="nav-link" href="{% url 'posts:create' %}">New Post</a></li>
       <li><a class="nav-link" href="{% url 'groups:all' %}">Groups</a></li>
       <li><a class="nav-link" href="{% url 'groups:create' %}">Create Group</a></li>
-      <li><a class="nav-link" href="{% url 'accounts:logout' %}">Logout</a></li>
+      <li><a class="nav-link" href="{% url 'accounts:logout' %}">Sign out</a></li>
       {% else %}
       <li><a class="nav-link" href="{% url 'groups:all' %}">Groups</a></li>
-      <li><a class="nav-link" href="{% url 'accounts:login' %}">Log In</a></li>
-      <li><a class="nav-link" href="{% url 'accounts:signup' %}">Sing Up</a></li>
+      <li><a class="nav-link" href="{% url 'accounts:login' %}">Sign In</a></li>
+      <li><a class="nav-link" href="{% url 'accounts:signup' %}">Sign Up</a></li>
       {% endif %}
     </ul>
   </header>
